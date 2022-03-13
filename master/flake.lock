@@ -75,23 +75,6 @@
         "type": "github"
       }
     },
-    "src-timerwheel-master_2": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1599025238,
-        "narHash": "sha256-HPLel0nFPy5pmMl0ZkFjzZnJWGJ9umZFzyFG4m7wzXo=",
-        "owner": "xflywind",
-        "repo": "timerwheel",
-        "rev": "ee1cf5b40ed01b721daba214e4816949f6a2f79c",
-        "type": "github"
-      },
-      "original": {
-        "owner": "xflywind",
-        "ref": "refs/heads/master",
-        "repo": "timerwheel",
-        "type": "github"
-      }
-    },
     "src-timerwheel-v0_1_2": {
       "flake": false,
       "locked": {
@@ -109,6 +92,23 @@
         "type": "github"
       }
     },
+    "src-xio-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1599828157,
+        "narHash": "sha256-DZ+dFsyQXsbn57fGqA5/B1bQS1vyH2L/p5tAPWn0rns=",
+        "owner": "xflywind",
+        "repo": "async",
+        "rev": "c30500381d04672c38bc71a27a053fd5fedea0c3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "xflywind",
+        "ref": "refs/heads/master",
+        "repo": "async",
+        "type": "github"
+      }
+    },
     "timerwheel": {
       "inputs": {
         "flakeNimbleLib": [
@@ -121,11 +121,11 @@
         "timerwheel-v0_1_2": "timerwheel-v0_1_2"
       },
       "locked": {
-        "lastModified": 1647067059,
-        "narHash": "sha256-laN1X5duJ7opOLZhg/cb6x0mMU9gyE4t467kqs5PkHk=",
+        "lastModified": 1647112337,
+        "narHash": "sha256-A5YL8L4vngTvl96PFhSY59GkeMpetZOZXfZV6eXxgJw=",
         "owner": "nim-nix-pkgs",
         "repo": "timerwheel",
-        "rev": "a27e0553e1311738e964ba10ddd3a5a01980ad71",
+        "rev": "ab69a78d464b89bdd531be21cbde5aee2634e101",
         "type": "github"
       },
       "original": {
@@ -148,13 +148,20 @@
         "src-timerwheel-master": "src-timerwheel-master"
       },
       "locked": {
-        "narHash": "sha256-iAYcCiuZx7Pp9iJ06OHRs/KvDbCYY7N+2aJ+0gAmE2Y=",
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "lastModified": 1647112337,
+        "narHash": "sha256-A5YL8L4vngTvl96PFhSY59GkeMpetZOZXfZV6eXxgJw=",
+        "owner": "nim-nix-pkgs",
+        "repo": "timerwheel",
+        "rev": "ab69a78d464b89bdd531be21cbde5aee2634e101",
+        "type": "github"
       },
       "original": {
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "timerwheel",
+        "type": "github"
       }
     },
     "timerwheel-v0_1_2": {
@@ -170,13 +177,20 @@
         "src-timerwheel-v0_1_2": "src-timerwheel-v0_1_2"
       },
       "locked": {
-        "narHash": "sha256-O2g67vjA12sUViKGN88nuEQ7g0ut7v9G3bxTxZCbIw0=",
-        "path": "./v0_1_2",
-        "type": "path"
+        "dir": "v0_1_2",
+        "lastModified": 1647112337,
+        "narHash": "sha256-A5YL8L4vngTvl96PFhSY59GkeMpetZOZXfZV6eXxgJw=",
+        "owner": "nim-nix-pkgs",
+        "repo": "timerwheel",
+        "rev": "ab69a78d464b89bdd531be21cbde5aee2634e101",
+        "type": "github"
       },
       "original": {
-        "path": "./v0_1_2",
-        "type": "path"
+        "dir": "v0_1_2",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "timerwheel",
+        "type": "github"
       }
     },
     "xio": {
@@ -190,11 +204,11 @@
         "xio-master": "xio-master"
       },
       "locked": {
-        "lastModified": 1647060690,
-        "narHash": "sha256-NjtZqa/EETSE/oftIXoscJGqZxuLGSRamsV8CJZ+61Y=",
+        "lastModified": 1647111746,
+        "narHash": "sha256-r9oNKxpuwhuDElc1wzTvaKzlxoAOsCeoNS19F3BnYUU=",
         "owner": "nim-nix-pkgs",
         "repo": "xio",
-        "rev": "e08c0967f866d76f9253edc5864e10c73d708c45",
+        "rev": "aae45ba046c95ba682341d9ee74831704d49a3c8",
         "type": "github"
       },
       "original": {
@@ -214,16 +228,23 @@
           "xio",
           "nixpkgs"
         ],
-        "src-timerwheel-master": "src-timerwheel-master_2"
+        "src-xio-master": "src-xio-master"
       },
       "locked": {
-        "narHash": "sha256-iAYcCiuZx7Pp9iJ06OHRs/KvDbCYY7N+2aJ+0gAmE2Y=",
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "lastModified": 1647111746,
+        "narHash": "sha256-r9oNKxpuwhuDElc1wzTvaKzlxoAOsCeoNS19F3BnYUU=",
+        "owner": "nim-nix-pkgs",
+        "repo": "xio",
+        "rev": "aae45ba046c95ba682341d9ee74831704d49a3c8",
+        "type": "github"
       },
       "original": {
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "xio",
+        "type": "github"
       }
     }
   },
