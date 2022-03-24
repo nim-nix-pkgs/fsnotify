@@ -104,11 +104,11 @@
       },
       "locked": {
         "dir": "v0_1_2",
-        "lastModified": 1648108172,
-        "narHash": "sha256-GcYiMtfwwyFLjMI3N6xJFFuozhqBozOYdN7s6FFzm3A=",
+        "lastModified": 1648163684,
+        "narHash": "sha256-zSwHJ+Y0UELd+mhabIkhUs89z1OT9b8YNRJg9orqGDw=",
         "owner": "nim-nix-pkgs",
         "repo": "timerwheel",
-        "rev": "70fa563fe0635db8ade67c9a19eca95b0bae384d",
+        "rev": "a493e0fba8da0027620daf647da762efe45edcb3",
         "type": "github"
       },
       "original": {
@@ -127,42 +127,15 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "xio-master": "xio-master"
-      },
-      "locked": {
-        "lastModified": 1648108250,
-        "narHash": "sha256-u7Lcuz50HEjQP7rSIvZP/WYyf2vaLoOZncEMU00BgR8=",
-        "owner": "nim-nix-pkgs",
-        "repo": "xio",
-        "rev": "7c4dd427a5893112394e0491aeebd89b327ca952",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "xio",
-        "type": "github"
-      }
-    },
-    "xio-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "xio",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "xio",
-          "nixpkgs"
-        ],
         "src-xio-master": "src-xio-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648108250,
-        "narHash": "sha256-u7Lcuz50HEjQP7rSIvZP/WYyf2vaLoOZncEMU00BgR8=",
+        "lastModified": 1648163772,
+        "narHash": "sha256-omgVuqsHb1fCgf2fdntzNANbJ8P+sYxRSPGj1P/aqGI=",
         "owner": "nim-nix-pkgs",
         "repo": "xio",
-        "rev": "7c4dd427a5893112394e0491aeebd89b327ca952",
+        "rev": "acba39f6096dea017f1972e3110bb4fc624894bc",
         "type": "github"
       },
       "original": {
