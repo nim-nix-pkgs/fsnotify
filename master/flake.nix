@@ -11,7 +11,6 @@
   inputs.src-fsnotify-master.ref   = "refs/heads/master";
   inputs.src-fsnotify-master.owner = "planety";
   inputs.src-fsnotify-master.repo  = "fsnotify";
-  inputs.src-fsnotify-master.dir   = "";
   inputs.src-fsnotify-master.type  = "github";
   
   inputs."timerwheel".owner = "nim-nix-pkgs";
